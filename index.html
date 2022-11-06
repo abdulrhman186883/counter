@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  
+ <script>
+  var counter =0;
+  
+function add() {
+  
+  document.getElementById("pp").innerHTML = ++counter;
+}
+
+function Decrease() {
+  if(counter>0){
+  document.getElementById("pp").innerHTML = --counter;
+  }
+}
+
+function Reset() {
+  
+  document.getElementById("pp").innerHTML = counter = 0;
+}
+
+
+</script>
+
+ <body>
+    
+ 
+   <div  class ="title"> <h1> COUNTER</h1> </div>
+   
+   <p id = "pp" class="result">0</p>
+   
+  <div class = "buttons">
+    
+    <button onclick="Decrease()"> Decrease</button>
+    <button onclick="Reset()"> Reset </button>
+    <button onclick="add()" > increase</button>
+  </div>
+  
+  
+  
+  </body>
+  
+  
+</html>

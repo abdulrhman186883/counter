@@ -1,0 +1,27 @@
+
+   .buttons{
+  display: flex;
+  
+  justify-content: center;
+}
+
+
+.buttons button{
+margin: 1%;
+}
+
+
+.result{
+text-align: center;
+font-size: 25px;
+font-weight: 900;
+}
+button {background-color: #008CBA;
+        padding: 3%;
+        border: none;
+        border-radius: 4px;
+}
+
+button:hover{
+color: white;
+}
